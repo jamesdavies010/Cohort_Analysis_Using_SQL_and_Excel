@@ -7,15 +7,17 @@ This project uses a cohort analysis to examine retention rates of subscribed use
 The analysis is based on SQL queries that calculate weekly retention and churn rates, allowing for in-depth investigation into customer engagement with the subscription service.
 
 ## Project structure
-
-1. **SQL script**:
-   - The SQL script generates weekly cohorts and calculates retention by counting active users per week over a six-week period.
+1. **Input file**:
+   - The 'subscriptions.csv' file represents the raw data, which can be analysed in SQL.
+   
+2. **SQL code**:
+   - The SQL code generates weekly cohorts and calculates retention by counting active users per week over a six-week period.
    - Each weekly cohort includes:
      - **Number of subscribers (Week 0)**: Initial count of users who started a subscription in that week.
      - **Retention counts for weeks 1 to 6**: Counts of subscribers who remain active in each subsequent week.
    - Additionally, churn and retention rates are calculated to assess subscriber behaviour trends.
 
-2. **Excel dashboard**:
+3. **Excel dashboard**:
    - The Excel dashboard provides visualizations that offer insights into user retention patterns over time.
    - Visualizations include:
      - **Total users per cohort per week**: Displays the number of active users in each week following their subscription start.
