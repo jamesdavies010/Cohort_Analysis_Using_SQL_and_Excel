@@ -65,9 +65,9 @@ The analysis is based on SQL queries that calculate weekly retention and churn r
 
 ## Recommendations
 
-1. Investigate why more users were subscribing in early December 2020 relative to January 2021 (see Table 1).
-2. Determine why retention rates between week 0 and week 1 were higher in late December cohorts than in January cohorts (see Table 2).
-3. Focus on strategies to improve retention rates between weeks 0 and 1 to have the largest impact on overall retention rates (see Table 3).
+1. Investigate why more users were subscribing in early December 2020 relative to January 2021.
+2. Determine why retention rates between week 0 and week 1 were higher in late December cohorts than in January cohorts.
+3. Focus on strategies to improve retention rates between weeks 0 and 1 to have the largest impact on overall retention rates.
 
 ## Contribution Guidelines
 
